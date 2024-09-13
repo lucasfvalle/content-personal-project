@@ -1,41 +1,7 @@
-import { FaYoutube, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+//import { FaYoutube, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import LiftedLogo from '../../public/images/logo-symbolic-main-512.png';
 import Image from 'next/image';
 
-const navigation = {
-  social: [
-    {
-      name: 'Youtube',
-      href: 'https://www.youtube.com/channel/UCZSFuQ0eoDxe8WXbt_th9zA',
-      icon: (props) => <FaYoutube />,
-    },
-    {
-      name: 'Twitter',
-      href: 'https://twitter.com/lifteddotsite',
-      icon: (props) => <FaTwitter />,
-    },
-    {
-      name: 'GitHub',
-      href: 'https://github.com/lifteddotsite/',
-      icon: (props) => <FaGithub />,
-    },
-
-    {
-      name: 'LinkedIn',
-      href: 'https://linkedin.com/company/lifteddotsite',
-      icon: (props) => <FaLinkedin />,
-    },
-  ],
-};
-
-const footerData = {
-  message:
-    "I hope you find this demo project helpful. If you ever need my services on a similar project, I'd love to help!",
-
-  followMessage: 'Follow me on social media for more tutorial like this.',
-  callToActionURL: 'https://lifted.site/contact',
-  callToActionMessage: 'Click here to book a call with me.',
-};
 
 export default function Footer() {
   return (

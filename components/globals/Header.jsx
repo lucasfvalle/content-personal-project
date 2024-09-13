@@ -3,10 +3,6 @@ import Image from 'next/image';
 import LiftedWPBanner from '../../public/images/lifted.site-banner.png';
 import LiftedFounderAvatar from '../../public/images/liftedwp-founder-avatar.png';
 
-
-
-
-
 export default function Header() {
   return (
     <header className="bg-white">
